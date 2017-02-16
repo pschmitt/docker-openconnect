@@ -6,4 +6,4 @@ RUN dnf makecache && \
     dnf clean all && \
     rm -rf /var/cache/dnf/*
 
-ENTRYPOINT ["/usr/bin/openconnect"]
+ENTRYPOINT ["/usr/sbin/openconnect"]
